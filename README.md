@@ -7,7 +7,11 @@
 ### [2. WICS](https://www.wiseindex.com/About/WICS)
 ![img](./asset/img/업종분류-WICS.png)
 
+# 주식데이터 수집
+- https://seong6496.tistory.com/169
+
 # 참고 문서
 - https://www.youtube.com/@wsaj
 - https://www.youtube.com/@haltoo
 - https://stock79.tistory.com/
+
