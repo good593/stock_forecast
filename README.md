@@ -14,4 +14,4 @@
 - https://www.youtube.com/@wsaj
 - https://www.youtube.com/@haltoo
 - https://stock79.tistory.com/
-
+- [파이썬 멀티프로세싱](https://inhovation97.tistory.com/55)
