@@ -22,8 +22,10 @@ def load_stock(stock_code_list:list, stock_path:str):
         df_dtype = {
             'stock_code':'object'
         }
-        stock_df = pd.read_csv(save_path, index_col='Date', dtype=df_dtype)
+        stock_df = pd.read_csv(save_path, index_col='Date', dtype=df_dtype, parse_dates=['Date'])
         stock_df_dict[stock_code] = stock_df
     
     return stock_df_dict
+
+
 
