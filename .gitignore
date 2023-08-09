@@ -1,2 +1,6 @@
 # 데이터 
 data 
+*.csv
+
+# cashe
+__pycache__
