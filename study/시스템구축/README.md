@@ -1,8 +1,9 @@
 # [시스템 트레이딩](https://www.youtube.com/watch?v=JAUVb_73RQY)
 
-## [Backtesting](https://marinelifeirony.tistory.com/157)
+## [Backtesting](https://www.libhunt.com/compare-backtrader-vs-backtesting.py)
 과거 특정 시점부터 데이터를 받아 매매를 진행하고 그 결과에 따른 계좌의 자산 변화를 확인하는 벡테스팅을 통해 평가한다.
 - [Backtrader](https://github.com/mementum/backtrader)
+    - [그래프](https://satir.tistory.com/49)
 - [backtesting](https://github.com/kernc/backtesting.py)
 
 
