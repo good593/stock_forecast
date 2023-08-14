@@ -15,7 +15,7 @@ def reset_seeds(seed=42):
     torch.cuda.manual_seed(seed) # gpu 연산 무작위 고정
     torch.backends.cudnn.deterministic = True  # cuda 라이브러리에서 Deterministic(결정론적)으로 예측하기 (예측에 대한 불확실성 제거 )
 
-def load_corps(corps_path):
+def load_corps(corps_path:str) -> pd.DataFrame:
     df_dtype = {
         'stock_code': 'object'
     }
@@ -24,7 +24,7 @@ def load_corps(corps_path):
     print(df.shape)
     return df 
 
-def load_stock(stock_code_list:list, stock_path:str):
+def load_stock(stock_code_list:list, stock_path:str) -> dict:
     stock_df_dict = {}
     for stock_code in tqdm(stock_code_list):
         save_path = stock_path.format(stock_code=stock_code)
